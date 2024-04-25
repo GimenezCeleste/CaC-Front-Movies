@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    background-color: #181419;
+}
+/* Botones */
+.btn-hover-danger:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.btn-hover-light-danger:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
+}
+#flechaArriba{
+    position: fixed;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 9999 !important;
+}
+/* Main */
+#principal{
+    background-image: url(/img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#cover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card-hover{
+    transition: box-shadow 0.3s ease;
+}
+.card-hover:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+/* Footer */
+footer ul li a:hover{
+    text-decoration: underline #333;
+}
+footer ul li:last-child a:hover{
+    text-decoration: none;
+}
+footer p{
+    border-top: 1px solid #333;
+}

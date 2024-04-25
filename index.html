@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaC Movies</title>
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/principal.css">
+</head>
+<body>
+      <header class="sticky-top p-3 text-bg-danger shadow">
+        <div class="row">
+          <div class="col-6 d-flex align-items-center">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none fs-3">
+              <i class="bi bi-film me-3"></i>
+              <span class="fw-bold">CaC - Movies</span>
+            </a>
+          </div>
+          <div class="col-6 d-flex justify-content-end align-items-center">
+            <button type="button" class="btn btn-outline-light me-3">Tendencias</button>
+            <button type="button" class="btn btn-outline-light me-3">Registrarse</button>
+            <button type="button" class="btn btn-dark btn-hover-danger">Iniciar Sesión</button>
+          </div>
+        </div>
+      </header>
+    <main>
+      <section id="principal">
+        <div class="container-fluid" id="cover">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <p class="fs-1 mt-5">Películas y series ilimitadas</p>
+              <p class="fs-1"> en un solo lugar</p>
+              <p class="fs-3 mt-5">Disfruta donde quieras.</p>
+              <p class="fs-3">Cancelá en cualquier momento.</p>
+              <a class="btn btn-danger btn-hover-light-danger p-3 fs-5 mb-5" href="#">Registrate</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="buscador" class="container text-center my-5">
+        <h2>¿Qué estás buscando para ver?</h2>
+        <form action="" method="get" class="container col-8 my-5">
+          <div class="row justify-content-center">
+            <div class="col">
+              <input type="text" name="buscadorPelicula" id="buscadorPelicula" placeholder="Buscar.." class="form-control rounded-5">
+            </div>
+            <div class="col-auto">
+              <input type="submit" value="Buscar" class="btn btn-danger rounded-5 border-light btn-hover-light-danger">
+            </div>
+          </div>
+        </form>
+        <div class="container text-center">
+          <hr class="my-5 border-danger border-3 w-75 mx-auto">
+        </div>
+      </section>
+      <section id="tendencias" class="container-fluid my-5 text-center">
+        <h2>Las tendencias de hoy</h2>
+        <div class="row justify-content-center">
+          <div class="w-75 row my-5" id="peliculas">
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card position-relative card-hover">
+                <img src="/img/muchachos.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-4 mt-4 bg-danger">
+        <ul class="nav justify-content-center pb-2 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Términos y condiciones</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Preguntas frecuentes</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ayuda</a></li>
+          <li class="nav-item"><a href="#" class="btn btn-dark px-2 btn-hover-danger ms-3">Administrador Películas</a></li>
+        </ul>
+        <p class="text-center text-body-secondary mt-2 pt-4">&copy; 2024 Gimenez Celeste - Comisión 24144</p>
+      </footer>
+      <a href="#" class="mb-2 me-4" id="flechaArriba">
+        <i class="bi bi-arrow-up-circle-fill text-light fs-2"></i>
+      </a>
+     <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
